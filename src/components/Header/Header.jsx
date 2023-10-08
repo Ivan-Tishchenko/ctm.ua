@@ -67,36 +67,29 @@ export default function Header() {
           <div className="header__navigation">
             <ul>
               <li>
-                <Link to={"/corporative-clients"}>
-                  Корпоративным клиентам
-                </Link>
-              </li>
-              <li>
-                <Link to={"/for-dealers"}>
-                  Диллерам(b2b)
-                </Link>
-              </li>
-              <li>
-                <Link to={"/about-as"}>Про нас</Link>
-              </li>
-              <li>
-                <Link to={"/delivery"}>
-                  Способы доставки
-                </Link>
+                <Link to={"/about-as"}>О нас</Link>
               </li>
               <li>
                 <Link to={"/guarantee"}>Гарантия</Link>
               </li>
               <li>
-                <Link to={"/return-exchange"}>
-                  Возврат и обмен
-                </Link>
+                <Link to={"/payment"}>Оплата</Link>
               </li>
               <li>
-                <Link to={"/sale"}>Распродажа</Link>
+                <Link to={"/delivery"}>Доставка</Link>
               </li>
               <li>
                 <Link to={"/contacts"}>Контакты</Link>
+              </li>
+              <li>
+                <Link to={"/agreement"}>
+                  Условия соглашения
+                </Link>
+              </li>
+              <li>
+                <Link to={"/manufacturers"}>
+                  Производители
+                </Link>
               </li>
             </ul>
           </div>

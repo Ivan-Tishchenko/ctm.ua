@@ -23,8 +23,8 @@ export function App() {
             element={<div>/corporative-clients</div>}
           />
           <Route
-            path="/for-dealers"
-            element={<div>/for-dealers</div>}
+            path="/manufacturers"
+            element={<div>manufacturers</div>}
           />
           <Route
             path="/about-as"
@@ -39,10 +39,13 @@ export function App() {
             element={<div>/guarantee</div>}
           />
           <Route
-            path="/return-exchange"
-            element={<div>/return-exchange</div>}
+            path="/payment"
+            element={<div>/payment</div>}
           />
-          <Route path="/sale" element={<div>/sale</div>} />
+          <Route
+            path="/agreement"
+            element={<div>agreement</div>}
+          />
           <Route
             path="/contacts"
             element={<div>/contacts</div>}
@@ -56,6 +59,7 @@ export function App() {
             path="/category/:categoryName"
             element={<div>smartphones</div>}
           />
+          <Route path="/sale" element={<div>sale</div>} />
         </Routes>
         <Footer />
       </div>

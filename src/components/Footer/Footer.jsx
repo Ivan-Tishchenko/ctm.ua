@@ -78,13 +78,33 @@ export default function Footer() {
           <div className="footer__container">
             <h2>Навигация</h2>
             <ul>
-              <li>Корпоративным клиентам</li>
-              <li>Про нас</li>
-              <li>Способы доставки</li>
-              <li>Гарантия</li>
-              <li>Возврат и обмен</li>
-              <li>Распродажа</li>
-              <li>Контакты</li>
+              <li>
+                <Link to={"/corporative-clients"}>
+                  Корпоративным клиентам
+                </Link>
+              </li>
+              <li>
+                <Link to={"/about-as"}>О нас</Link>
+              </li>
+              <li>
+                <Link to={"/diliver"}>Доставка</Link>
+              </li>
+              <li>
+                <Link to={"/guarantee"}>Гарантия</Link>
+              </li>
+              <li>
+                <Link to={"/return-exchange"}>
+                  Возврат и обмен
+                </Link>
+              </li>
+              <li>
+                <Link to={"/sale"}>Распродажа</Link>
+              </li>
+              <li>
+                <li>
+                  <Link to={"/contacts"}>Контакты</Link>
+                </li>
+              </li>
             </ul>
           </div>
           <div className="footer__container">
