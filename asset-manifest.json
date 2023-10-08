@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.7d594387.css",
+    "main.js": "/static/js/main.2cdbe689.js",
+    "static/media/Main slideBg.png": "/static/media/Main slideBg.007feabaf540c72d2217.png",
+    "static/media/phoneItem.png": "/static/media/phoneItem.01d8445e44a8cb89a0ef.png",
+    "static/media/tgbanner.png": "/static/media/tgbanner.62fc03eaaf68a8d69cff.png",
+    "index.html": "/index.html",
+    "main.7d594387.css.map": "/static/css/main.7d594387.css.map",
+    "main.2cdbe689.js.map": "/static/js/main.2cdbe689.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7d594387.css",
+    "static/js/main.2cdbe689.js"
+  ]
+}
