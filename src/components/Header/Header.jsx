@@ -8,7 +8,7 @@ import downArrowImage from "../../assets/image/down.png";
 import searchImage from "../../assets/image/search.png";
 import userImage from "../../assets/image/user.png";
 import heartImage from "../../assets/image/heart.png";
-import cartImage from "../../assets/image/shopping-cart.png";
+import bascetImage from "../../assets/image/shopping-bascet.png";
 import telImage from "../../assets/image/tel.png";
 import {
   selectTimeWork,
@@ -157,10 +157,10 @@ export default function Header() {
                   display: "flex",
                   alignItems: "center",
                 }}
-                to={"/cart/"}
+                to={"/bascet/"}
               >
-                <img src={cartImage} alt="cart" />
-                <div className="header__cartItem">
+                <img src={bascetImage} alt="bascet" />
+                <div className="header__bascetItem">
                   <h1>Корзина</h1>
                   <h2>(1) товар</h2>
                 </div>

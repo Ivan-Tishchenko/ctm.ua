@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import starImage from "../../assets/image/star.png";
 import heartItemImage from "../../assets/image/heartItem.png";
 import tabletItemImage from "../../assets/image/tabletItem.png";
-import shoppingCartImage from "../../assets/image/shopping-cart.png";
+import shoppingbascetImage from "../../assets/image/shopping-bascet.png";
 
 export default function CardProduct({
   phoneItemImage,
@@ -60,7 +60,8 @@ export default function CardProduct({
           <div className="main__top">
             <span>{price} ₴</span>
             <p>
-              <img src={tabletItemImage} alt="" /> {monthlyPayment} в месяц
+              <img src={tabletItemImage} alt="" />{" "}
+              {monthlyPayment} в месяц
             </p>
           </div>
           <div className="main__bottom">
@@ -70,9 +71,9 @@ export default function CardProduct({
                 один клик
               </button>
             </Link>
-            <Link to={"/cart/"}>
-              <button className="cart">
-                <img src={shoppingCartImage} alt="" />
+            <Link to={"/bascet/"}>
+              <button className="bascet">
+                <img src={shoppingbascetImage} alt="" />
               </button>
             </Link>
           </div>

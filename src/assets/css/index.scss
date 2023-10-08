@@ -226,7 +226,7 @@ button {
         border: none;
       }
 
-      .cart {
+      .bascet {
         display: flex;
         align-items: center;
         justify-content: center;
@@ -250,7 +250,11 @@ button {
     flex-direction: column;
 
     .header__top {
-      background: linear-gradient(to bottom, #000000, #9400d3);
+      background: linear-gradient(
+        to bottom,
+        #000000,
+        #9400d3
+      );
       background-size: 100% 300%;
       animation: gradientAnimation 5s linear infinite;
       display: flex;
@@ -370,7 +374,8 @@ button {
           .select-To:focus {
             border-color: #e51c23;
             outline: 0;
-            box-shadow: 0 0 0 0.25rem rgba(253, 29, 13, 0.25);
+            box-shadow: 0 0 0 0.25rem
+              rgba(253, 29, 13, 0.25);
           }
         }
 
@@ -685,7 +690,10 @@ button {
             }
 
             .swiper-pagination-bullet-active {
-              opacity: var(--swiper-pagination-bullet-opacity, 1);
+              opacity: var(
+                --swiper-pagination-bullet-opacity,
+                1
+              );
               background: red !important;
             }
           }
@@ -1042,13 +1050,18 @@ button {
                     border: none;
                   }
 
-                  .cart {
+                  .bascet {
                     display: flex;
                     align-items: center;
                     justify-content: center;
                     width: 50px;
                     height: 50px;
-                    background-color: rgba(255, 255, 255, 0);
+                    background-color: rgba(
+                      255,
+                      255,
+                      255,
+                      0
+                    );
                     outline: none;
                     border: 1px solid #e51c23;
                     border-radius: 5px;
@@ -1349,13 +1362,18 @@ button {
                     border: none;
                   }
 
-                  .cart {
+                  .bascet {
                     display: flex;
                     align-items: center;
                     justify-content: center;
                     width: 50px;
                     height: 50px;
-                    background-color: rgba(255, 255, 255, 0);
+                    background-color: rgba(
+                      255,
+                      255,
+                      255,
+                      0
+                    );
                     outline: none;
                     border: 1px solid #e51c23;
                     border-radius: 5px;
@@ -1740,13 +1758,18 @@ button {
                     border: none;
                   }
 
-                  .cart {
+                  .bascet {
                     display: flex;
                     align-items: center;
                     justify-content: center;
                     width: 50px;
                     height: 50px;
-                    background-color: rgba(255, 255, 255, 0);
+                    background-color: rgba(
+                      255,
+                      255,
+                      255,
+                      0
+                    );
                     outline: none;
                     border: 1px solid #e51c23;
                     border-radius: 5px;
@@ -2046,18 +2069,37 @@ button {
 
 /* Для мобильных устройств */
 @media screen and (max-width: 767px) {
-  .wrapper .header .header__center .header__body .header__pannel {
+  .wrapper
+    .header
+    .header__center
+    .header__body
+    .header__pannel {
     flex-direction: column;
   }
 
-  .wrapper .header .header__center .header__body .header__pannel .select-One,
-  .wrapper .header .header__center .header__body .header__pannel .select-To {
+  .wrapper
+    .header
+    .header__center
+    .header__body
+    .header__pannel
+    .select-One,
+  .wrapper
+    .header
+    .header__center
+    .header__body
+    .header__pannel
+    .select-To {
     width: 100%;
     margin: 0;
     margin-bottom: 10px;
   }
 
-  .wrapper .header .header__center .header__body .header__navigation ul {
+  .wrapper
+    .header
+    .header__center
+    .header__body
+    .header__navigation
+    ul {
     flex-direction: column;
   }
 
@@ -2074,12 +2116,20 @@ button {
     font-size: 20px;
   }
 
-  .wrapper .header .header__bottom .header__body .select-One {
+  .wrapper
+    .header
+    .header__bottom
+    .header__body
+    .select-One {
     margin-right: 0;
     margin-bottom: 10px;
   }
 
-  .wrapper .header .header__bottom .header__body .header__input {
+  .wrapper
+    .header
+    .header__bottom
+    .header__body
+    .header__input {
     margin-right: 0;
     margin-bottom: 10px;
   }
@@ -2087,7 +2137,11 @@ button {
 
 /* Для планшетов */
 @media screen and (min-width: 768px) and (max-width: 1023px) {
-  .wrapper .header .header__center .header__body .header__pannel {
+  .wrapper
+    .header
+    .header__center
+    .header__body
+    .header__pannel {
     flex-direction: row;
   }
 
@@ -2126,7 +2180,6 @@ button {
   color: red !important;
   transform: scale(0.7);
 }
-
 
 .swiper-pagination-bullet-active {
   opacity: var(--swiper-pagination-bullet-opacity, 1);

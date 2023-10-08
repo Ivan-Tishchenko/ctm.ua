@@ -184,7 +184,7 @@ button {
   border-radius: 5px;
   border: none;
 }
-.cardProduct .main__iBottom .main__bottom .cart {
+.cardProduct .main__iBottom .main__bottom .bascet {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -264,30 +264,54 @@ button {
   flex-direction: row;
   justify-content: space-between;
 }
-.wrapper .header .header__center .header__body .header__pannel {
+.wrapper
+  .header
+  .header__center
+  .header__body
+  .header__pannel {
   display: flex;
   flex-direction: row;
   position: relative;
 }
-.wrapper .header .header__center .header__body .header__pannel .select-One {
+.wrapper
+  .header
+  .header__center
+  .header__body
+  .header__pannel
+  .select-One {
   margin-right: 15px;
   width: 34%;
   text-align: right;
   border: none;
 }
-.wrapper .header .header__center .header__body .header__pannel .img-map-bg {
+.wrapper
+  .header
+  .header__center
+  .header__body
+  .header__pannel
+  .img-map-bg {
   position: absolute;
   top: 11px;
   left: 13px;
   z-index: 99;
 }
-.wrapper .header .header__center .header__body .header__pannel .img-timers-bg {
+.wrapper
+  .header
+  .header__center
+  .header__body
+  .header__pannel
+  .img-timers-bg {
   position: absolute;
   top: 11px;
   right: 160px;
   z-index: 99;
 }
-.wrapper .header .header__center .header__body .header__pannel .select-To {
+.wrapper
+  .header
+  .header__center
+  .header__body
+  .header__pannel
+  .select-To {
   position: relative;
   width: 60%;
   background: #e51c23;
@@ -295,22 +319,47 @@ button {
   border-radius: 7px;
   text-align: right;
 }
-.wrapper .header .header__center .header__body .header__pannel .select-To option {
+.wrapper
+  .header
+  .header__center
+  .header__body
+  .header__pannel
+  .select-To
+  option {
   text-align: right;
 }
-.wrapper .header .header__center .header__body .header__pannel .timeSet:hover {
+.wrapper
+  .header
+  .header__center
+  .header__body
+  .header__pannel
+  .timeSet:hover {
   background-color: white;
 }
-.wrapper .header .header__center .header__body .header__pannel .select-To:focus {
+.wrapper
+  .header
+  .header__center
+  .header__body
+  .header__pannel
+  .select-To:focus {
   border-color: #e51c23;
   outline: 0;
   box-shadow: 0 0 0 0.25rem rgba(253, 29, 13, 0.25);
 }
-.wrapper .header .header__center .header__body .header__navigation {
+.wrapper
+  .header
+  .header__center
+  .header__body
+  .header__navigation {
   display: flex;
   flex-direction: row;
 }
-.wrapper .header .header__center .header__body .header__navigation ul {
+.wrapper
+  .header
+  .header__center
+  .header__body
+  .header__navigation
+  ul {
   align-items: center;
   margin: 0;
   display: flex;
@@ -318,7 +367,13 @@ button {
   list-style-type: none;
   padding: none;
 }
-.wrapper .header .header__center .header__body .header__navigation ul li {
+.wrapper
+  .header
+  .header__center
+  .header__body
+  .header__navigation
+  ul
+  li {
   margin: 0 10px;
   font-style: normal;
   font-weight: 400;
@@ -327,7 +382,14 @@ button {
   /* identical to box height */
   color: #151621;
 }
-.wrapper .header .header__center .header__body .header__navigation ul li a {
+.wrapper
+  .header
+  .header__center
+  .header__body
+  .header__navigation
+  ul
+  li
+  a {
   margin: 0 10px;
   font-style: normal;
   font-weight: 400;
@@ -378,10 +440,19 @@ button {
   left: 5px;
   z-index: 99;
 }
-.wrapper .header .header__bottom .header__body .header__input {
+.wrapper
+  .header
+  .header__bottom
+  .header__body
+  .header__input {
   margin-right: 30px;
 }
-.wrapper .header .header__bottom .header__body .header__input .header__ctegore {
+.wrapper
+  .header
+  .header__bottom
+  .header__body
+  .header__input
+  .header__ctegore {
   position: relative;
   background-color: white;
   display: flex;
@@ -390,7 +461,13 @@ button {
   padding: 7px 70px 7px 10px;
   border-radius: 5px;
 }
-.wrapper .header .header__bottom .header__body .header__input .header__ctegore span {
+.wrapper
+  .header
+  .header__bottom
+  .header__body
+  .header__input
+  .header__ctegore
+  span {
   margin-right: 35px;
   font-style: normal;
   font-weight: 400;
@@ -399,10 +476,23 @@ button {
   /* identical to box height */
   color: #151621;
 }
-.wrapper .header .header__bottom .header__body .header__input .header__ctegore span img {
+.wrapper
+  .header
+  .header__bottom
+  .header__body
+  .header__input
+  .header__ctegore
+  span
+  img {
   width: 9.33px;
 }
-.wrapper .header .header__bottom .header__body .header__input .header__ctegore hr {
+.wrapper
+  .header
+  .header__bottom
+  .header__body
+  .header__input
+  .header__ctegore
+  hr {
   width: 3px;
   height: 28px;
   top: 6px;
@@ -414,7 +504,13 @@ button {
   z-index: 999;
   border-radius: 2px;
 }
-.wrapper .header .header__bottom .header__body .header__input .header__ctegore input {
+.wrapper
+  .header
+  .header__bottom
+  .header__body
+  .header__input
+  .header__ctegore
+  input {
   border: none;
   font-style: normal;
   font-weight: 400;
@@ -423,10 +519,22 @@ button {
   /* identical to box height */
   color: #7e7f83;
 }
-.wrapper .header .header__bottom .header__body .header__input .header__ctegore .search-input:focus-visible {
+.wrapper
+  .header
+  .header__bottom
+  .header__body
+  .header__input
+  .header__ctegore
+  .search-input:focus-visible {
   outline: none;
 }
-.wrapper .header .header__bottom .header__body .header__input .header__ctegore .header__searchBtn {
+.wrapper
+  .header
+  .header__bottom
+  .header__body
+  .header__input
+  .header__ctegore
+  .header__searchBtn {
   position: absolute;
   right: -40px;
   top: 0;
@@ -438,14 +546,25 @@ button {
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
 }
-.wrapper .header .header__bottom .header__body .header__input .header__ctegore .header__searchBtn button {
+.wrapper
+  .header
+  .header__bottom
+  .header__body
+  .header__input
+  .header__ctegore
+  .header__searchBtn
+  button {
   outline: none;
   border: none;
   background-color: rgba(255, 255, 255, 0);
   height: 16px;
   width: 16px;
 }
-.wrapper .header .header__bottom .header__body .header__profile {
+.wrapper
+  .header
+  .header__bottom
+  .header__body
+  .header__profile {
   float: right;
   align-self: flex-end;
   align-items: center;
@@ -453,12 +572,22 @@ button {
   display: flex;
   flex-direction: row;
 }
-.wrapper .header .header__bottom .header__body .header__profile img {
+.wrapper
+  .header
+  .header__bottom
+  .header__body
+  .header__profile
+  img {
   margin: 0 10px;
   width: 22px;
   height: 22px;
 }
-.wrapper .header .header__bottom .header__body .header__profile h1 {
+.wrapper
+  .header
+  .header__bottom
+  .header__body
+  .header__profile
+  h1 {
   margin: 0;
   font-style: normal;
   font-weight: 400;
@@ -466,7 +595,12 @@ button {
   line-height: 19px;
   color: #ffffff;
 }
-.wrapper .header .header__bottom .header__body .header__profile h2 {
+.wrapper
+  .header
+  .header__bottom
+  .header__body
+  .header__profile
+  h2 {
   font-style: normal;
   font-weight: 700;
   font-size: 12px;
@@ -502,7 +636,12 @@ button {
   flex-direction: column;
   border-radius: 5px;
 }
-.wrapper .main .main__body .main__row-1 .main__listener .main__item-bgtitle {
+.wrapper
+  .main
+  .main__body
+  .main__row-1
+  .main__listener
+  .main__item-bgtitle {
   border-bottom: 1px solid #f0f1f3;
   background: #151621;
   border-radius: 5px 5px 0 0;
@@ -511,21 +650,38 @@ button {
   justify-content: space-between;
   align-items: center;
 }
-.wrapper .main .main__body .main__row-1 .main__listener .main__item-bgtitle span {
+.wrapper
+  .main
+  .main__body
+  .main__row-1
+  .main__listener
+  .main__item-bgtitle
+  span {
   font-style: normal;
   font-weight: 700;
   font-size: 22px;
   line-height: 32px;
   color: #ffffff;
 }
-.wrapper .main .main__body .main__row-1 .main__listener .main__item {
+.wrapper
+  .main
+  .main__body
+  .main__row-1
+  .main__listener
+  .main__item {
   border-bottom: 1px solid #d7d9dc;
   padding: 13px 10px;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.wrapper .main .main__body .main__row-1 .main__listener .main__item span {
+.wrapper
+  .main
+  .main__body
+  .main__row-1
+  .main__listener
+  .main__item
+  span {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -533,14 +689,25 @@ button {
   /* identical to box height, or 14px */
   color: #151621;
 }
-.wrapper .main .main__body .main__row-1 .main__listener .main__showAll {
+.wrapper
+  .main
+  .main__body
+  .main__row-1
+  .main__listener
+  .main__showAll {
   border-radius: 0 0 5px 5px;
   padding: 14px 0 20px 0;
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.wrapper .main .main__body .main__row-1 .main__listener .main__showAll span {
+.wrapper
+  .main
+  .main__body
+  .main__row-1
+  .main__listener
+  .main__showAll
+  span {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -548,25 +715,60 @@ button {
   /* identical to box height, or 14px */
   color: #e51c23;
 }
-.wrapper .main .main__body .main__row-1 .main__slide .swiper {
+.wrapper
+  .main
+  .main__body
+  .main__row-1
+  .main__slide
+  .swiper {
   max-width: 700px;
   height: 413px;
 }
-.wrapper .main .main__body .main__row-1 .main__slide .swiper .swiper-slide {
+.wrapper
+  .main
+  .main__body
+  .main__row-1
+  .main__slide
+  .swiper
+  .swiper-slide {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.wrapper .main .main__body .main__row-1 .main__slide .swiper .swiper-scrollbar {
+.wrapper
+  .main
+  .main__body
+  .main__row-1
+  .main__slide
+  .swiper
+  .swiper-scrollbar {
   display: none;
 }
-.wrapper .main .main__body .main__row-1 .main__slide .swiper .swiper-button-prev:after {
+.wrapper
+  .main
+  .main__body
+  .main__row-1
+  .main__slide
+  .swiper
+  .swiper-button-prev:after {
   content: "";
 }
-.wrapper .main .main__body .main__row-1 .main__slide .swiper .swiper-button-next:after {
+.wrapper
+  .main
+  .main__body
+  .main__row-1
+  .main__slide
+  .swiper
+  .swiper-button-next:after {
   content: "";
 }
-.wrapper .main .main__body .main__row-1 .main__slide .swiper .swiper-pagination-bullet-active {
+.wrapper
+  .main
+  .main__body
+  .main__row-1
+  .main__slide
+  .swiper
+  .swiper-pagination-bullet-active {
   opacity: var(--swiper-pagination-bullet-opacity, 1);
   background: red !important;
 }
@@ -604,7 +806,12 @@ button {
 .wrapper .main .main__body .main__row-2 .main__box-1 h2 b {
   color: red;
 }
-.wrapper .main .main__body .main__row-2 .main__box-1 button {
+.wrapper
+  .main
+  .main__body
+  .main__row-2
+  .main__box-1
+  button {
   width: 100%;
   height: 50px;
   border: 1px solid #e51c23;
@@ -624,14 +831,25 @@ button {
   flex-direction: column;
   align-items: center;
 }
-.wrapper .main .main__body .main__row-2 .main__box-2 .main__itemRow {
+.wrapper
+  .main
+  .main__body
+  .main__row-2
+  .main__box-2
+  .main__itemRow {
   position: relative;
   display: flex;
   width: 100%;
   flex-direction: row;
   align-items: center;
 }
-.wrapper .main .main__body .main__row-2 .main__box-2 .main__itemRow .main-item-top {
+.wrapper
+  .main
+  .main__body
+  .main__row-2
+  .main__box-2
+  .main__itemRow
+  .main-item-top {
   margin: 50px 0 -4px 0;
 }
 .wrapper .main .main__body .main__row-3 {
@@ -648,7 +866,13 @@ button {
   align-items: center;
   justify-content: space-between;
 }
-.wrapper .main .main__body .main__row-3 .main__box-1 .main__title h1 {
+.wrapper
+  .main
+  .main__body
+  .main__row-3
+  .main__box-1
+  .main__title
+  h1 {
   font-style: normal;
   font-weight: 700;
   font-size: 80px;
@@ -657,7 +881,13 @@ button {
   color: #151621;
   margin-bottom: 10px;
 }
-.wrapper .main .main__body .main__row-3 .main__box-1 .main__title h2 {
+.wrapper
+  .main
+  .main__body
+  .main__row-3
+  .main__box-1
+  .main__title
+  h2 {
   margin-bottom: 10px;
   font-style: normal;
   font-weight: 400;
@@ -665,10 +895,23 @@ button {
   line-height: 29px;
   color: #151621;
 }
-.wrapper .main .main__body .main__row-3 .main__box-1 .main__title h2 b {
+.wrapper
+  .main
+  .main__body
+  .main__row-3
+  .main__box-1
+  .main__title
+  h2
+  b {
   color: red;
 }
-.wrapper .main .main__body .main__row-3 .main__box-1 .main__button button {
+.wrapper
+  .main
+  .main__body
+  .main__row-3
+  .main__box-1
+  .main__button
+  button {
   width: 325px;
   height: 50px;
   border: 1px solid #e51c23;
@@ -688,14 +931,25 @@ button {
   flex-direction: column;
   align-items: center;
 }
-.wrapper .main .main__body .main__row-3 .main__box-2 .main__itemRow {
+.wrapper
+  .main
+  .main__body
+  .main__row-3
+  .main__box-2
+  .main__itemRow {
   position: relative;
   display: flex;
   width: 100%;
   flex-direction: row;
   align-items: center;
 }
-.wrapper .main .main__body .main__row-3 .main__box-2 .main__itemRow .main__item {
+.wrapper
+  .main
+  .main__body
+  .main__row-3
+  .main__box-2
+  .main__itemRow
+  .main__item {
   flex-direction: column;
   display: flex;
   align-items: center;
@@ -705,7 +959,14 @@ button {
   border-radius: 5px;
   padding: 10px 10px;
 }
-.wrapper .main .main__body .main__row-3 .main__box-2 .main__itemRow .main__item .main__iTop {
+.wrapper
+  .main
+  .main__body
+  .main__row-3
+  .main__box-2
+  .main__itemRow
+  .main__item
+  .main__iTop {
   position: relative;
   justify-content: center;
   width: 100%;
@@ -713,12 +974,29 @@ button {
   flex-direction: row;
   align-items: center;
 }
-.wrapper .main .main__body .main__row-3 .main__box-2 .main__itemRow .main__item .main__iTop .main__categori {
+.wrapper
+  .main
+  .main__body
+  .main__row-3
+  .main__box-2
+  .main__itemRow
+  .main__item
+  .main__iTop
+  .main__categori {
   height: 23px;
   background: #259b24;
   border-radius: 5px;
 }
-.wrapper .main .main__body .main__row-3 .main__box-2 .main__itemRow .main__item .main__iTop .main__categori span {
+.wrapper
+  .main
+  .main__body
+  .main__row-3
+  .main__box-2
+  .main__itemRow
+  .main__item
+  .main__iTop
+  .main__categori
+  span {
   font-style: normal;
   font-weight: 800;
   font-size: 14px;
@@ -727,12 +1005,28 @@ button {
   text-align: center;
   color: #ffffff;
 }
-.wrapper .main .main__body .main__row-3 .main__box-2 .main__itemRow .main__item .main__iTop .heart {
+.wrapper
+  .main
+  .main__body
+  .main__row-3
+  .main__box-2
+  .main__itemRow
+  .main__item
+  .main__iTop
+  .heart {
   cursor: pointer;
   position: absolute;
   right: 10px;
 }
-.wrapper .main .main__body .main__row-3 .main__box-2 .main__itemRow .main__item .main__iTop .star-box {
+.wrapper
+  .main
+  .main__body
+  .main__row-3
+  .main__box-2
+  .main__itemRow
+  .main__item
+  .main__iTop
+  .star-box {
   width: 53px;
   height: 32px;
   left: -10px;
@@ -745,7 +1039,14 @@ button {
   cursor: pointer;
   position: absolute;
 }
-.wrapper .main .main__body .main__row-3 .main__box-2 .main__itemRow .main__item .main__iCenter {
+.wrapper
+  .main
+  .main__body
+  .main__row-3
+  .main__box-2
+  .main__itemRow
+  .main__item
+  .main__iCenter {
   position: relative;
   display: flex;
   flex-direction: row;
@@ -754,19 +1055,46 @@ button {
   width: 100%;
   padding: 20px 0;
 }
-.wrapper .main .main__body .main__row-3 .main__box-2 .main__itemRow .main__item .main__iCenter .main__iInfo {
+.wrapper
+  .main
+  .main__body
+  .main__row-3
+  .main__box-2
+  .main__itemRow
+  .main__item
+  .main__iCenter
+  .main__iInfo {
   position: absolute;
   left: 10px;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.wrapper .main .main__body .main__row-3 .main__box-2 .main__itemRow .main__item .main__iCenter .main__iInfo .main__iL {
+.wrapper
+  .main
+  .main__body
+  .main__row-3
+  .main__box-2
+  .main__itemRow
+  .main__item
+  .main__iCenter
+  .main__iInfo
+  .main__iL {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.wrapper .main .main__body .main__row-3 .main__box-2 .main__itemRow .main__item .main__iCenter .main__iInfo .main__iL span {
+.wrapper
+  .main
+  .main__body
+  .main__row-3
+  .main__box-2
+  .main__itemRow
+  .main__item
+  .main__iCenter
+  .main__iInfo
+  .main__iL
+  span {
   font-style: normal;
   font-weight: 800;
   font-size: 20px;
@@ -774,7 +1102,17 @@ button {
   /* or 25px */
   color: #673ab7;
 }
-.wrapper .main .main__body .main__row-3 .main__box-2 .main__itemRow .main__item .main__iCenter .main__iInfo .main__iL p {
+.wrapper
+  .main
+  .main__body
+  .main__row-3
+  .main__box-2
+  .main__itemRow
+  .main__item
+  .main__iCenter
+  .main__iInfo
+  .main__iL
+  p {
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
@@ -782,13 +1120,28 @@ button {
   /* or 15px */
   color: #151621;
 }
-.wrapper .main .main__body .main__row-3 .main__box-2 .main__itemRow .main__item .main__iDownCenter {
+.wrapper
+  .main
+  .main__body
+  .main__row-3
+  .main__box-2
+  .main__itemRow
+  .main__item
+  .main__iDownCenter {
   display: flex;
   flex-direction: column;
   width: 100%;
   padding: 10px 0;
 }
-.wrapper .main .main__body .main__row-3 .main__box-2 .main__itemRow .main__item .main__iDownCenter span {
+.wrapper
+  .main
+  .main__body
+  .main__row-3
+  .main__box-2
+  .main__itemRow
+  .main__item
+  .main__iDownCenter
+  span {
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -796,13 +1149,28 @@ button {
   /* or 23px */
   color: #151621;
 }
-.wrapper .main .main__body .main__row-3 .main__box-2 .main__itemRow .main__item .main__iBottom {
+.wrapper
+  .main
+  .main__body
+  .main__row-3
+  .main__box-2
+  .main__itemRow
+  .main__item
+  .main__iBottom {
   display: flex;
   flex-direction: column;
   align-items: center;
   width: 100%;
 }
-.wrapper .main .main__body .main__row-3 .main__box-2 .main__itemRow .main__item .main__iBottom .main__top {
+.wrapper
+  .main
+  .main__body
+  .main__row-3
+  .main__box-2
+  .main__itemRow
+  .main__item
+  .main__iBottom
+  .main__top {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -810,7 +1178,16 @@ button {
   width: 100%;
   padding: 10px 0;
 }
-.wrapper .main .main__body .main__row-3 .main__box-2 .main__itemRow .main__item .main__iBottom .main__top p {
+.wrapper
+  .main
+  .main__body
+  .main__row-3
+  .main__box-2
+  .main__itemRow
+  .main__item
+  .main__iBottom
+  .main__top
+  p {
   margin: none;
   display: flex;
   align-items: center;
@@ -821,7 +1198,16 @@ button {
   /* identical to box height, or 15px */
   color: #151621;
 }
-.wrapper .main .main__body .main__row-3 .main__box-2 .main__itemRow .main__item .main__iBottom .main__top span {
+.wrapper
+  .main
+  .main__body
+  .main__row-3
+  .main__box-2
+  .main__itemRow
+  .main__item
+  .main__iBottom
+  .main__top
+  span {
   font-style: normal;
   font-weight: 800;
   font-size: 25px;
@@ -829,14 +1215,31 @@ button {
   /* or 31px */
   color: #151621;
 }
-.wrapper .main .main__body .main__row-3 .main__box-2 .main__itemRow .main__item .main__iBottom .main__bottom {
+.wrapper
+  .main
+  .main__body
+  .main__row-3
+  .main__box-2
+  .main__itemRow
+  .main__item
+  .main__iBottom
+  .main__bottom {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
   width: 100%;
 }
-.wrapper .main .main__body .main__row-3 .main__box-2 .main__itemRow .main__item .main__iBottom .main__bottom .buy {
+.wrapper
+  .main
+  .main__body
+  .main__row-3
+  .main__box-2
+  .main__itemRow
+  .main__item
+  .main__iBottom
+  .main__bottom
+  .buy {
   width: 187px;
   height: 50px;
   font-style: normal;
@@ -850,7 +1253,16 @@ button {
   border-radius: 5px;
   border: none;
 }
-.wrapper .main .main__body .main__row-3 .main__box-2 .main__itemRow .main__item .main__iBottom .main__bottom .cart {
+.wrapper
+  .main
+  .main__body
+  .main__row-3
+  .main__box-2
+  .main__itemRow
+  .main__item
+  .main__iBottom
+  .main__bottom
+  .bascet {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -861,10 +1273,22 @@ button {
   border: 1px solid #e51c23;
   border-radius: 5px;
 }
-.wrapper .main .main__body .main__row-3 .main__box-2 .main__itemRow .main-item-top {
+.wrapper
+  .main
+  .main__body
+  .main__row-3
+  .main__box-2
+  .main__itemRow
+  .main-item-top {
   margin: 50px 0 -40px 0;
 }
-.wrapper .main .main__body .main__row-3 .main__box-2 .main__itemRow .main-item-top-top {
+.wrapper
+  .main
+  .main__body
+  .main__row-3
+  .main__box-2
+  .main__itemRow
+  .main-item-top-top {
   margin: 100px 30px -40px 30px;
 }
 .wrapper .main .main__body .main__row-4 {
@@ -905,7 +1329,12 @@ button {
 .wrapper .main .main__body .main__row-4 .main__box-1 h2 b {
   color: red;
 }
-.wrapper .main .main__body .main__row-4 .main__box-1 button {
+.wrapper
+  .main
+  .main__body
+  .main__row-4
+  .main__box-1
+  button {
   width: 100%;
   height: 50px;
   border: 1px solid #e51c23;
@@ -925,14 +1354,25 @@ button {
   flex-direction: column;
   align-items: center;
 }
-.wrapper .main .main__body .main__row-4 .main__box-2 .main__itemRow {
+.wrapper
+  .main
+  .main__body
+  .main__row-4
+  .main__box-2
+  .main__itemRow {
   position: relative;
   display: flex;
   width: 100%;
   flex-direction: row;
   align-items: center;
 }
-.wrapper .main .main__body .main__row-4 .main__box-2 .main__itemRow .main__item {
+.wrapper
+  .main
+  .main__body
+  .main__row-4
+  .main__box-2
+  .main__itemRow
+  .main__item {
   flex-direction: column;
   display: flex;
   align-items: center;
@@ -942,7 +1382,14 @@ button {
   border-radius: 5px;
   padding: 10px 10px;
 }
-.wrapper .main .main__body .main__row-4 .main__box-2 .main__itemRow .main__item .main__iTop {
+.wrapper
+  .main
+  .main__body
+  .main__row-4
+  .main__box-2
+  .main__itemRow
+  .main__item
+  .main__iTop {
   position: relative;
   justify-content: center;
   width: 100%;
@@ -950,13 +1397,30 @@ button {
   flex-direction: row;
   align-items: center;
 }
-.wrapper .main .main__body .main__row-4 .main__box-2 .main__itemRow .main__item .main__iTop .main__categori {
+.wrapper
+  .main
+  .main__body
+  .main__row-4
+  .main__box-2
+  .main__itemRow
+  .main__item
+  .main__iTop
+  .main__categori {
   width: 157px;
   height: 23px;
   background: #259b24;
   border-radius: 5px;
 }
-.wrapper .main .main__body .main__row-4 .main__box-2 .main__itemRow .main__item .main__iTop .main__categori span {
+.wrapper
+  .main
+  .main__body
+  .main__row-4
+  .main__box-2
+  .main__itemRow
+  .main__item
+  .main__iTop
+  .main__categori
+  span {
   font-style: normal;
   font-weight: 800;
   font-size: 14px;
@@ -965,12 +1429,28 @@ button {
   text-align: center;
   color: #ffffff;
 }
-.wrapper .main .main__body .main__row-4 .main__box-2 .main__itemRow .main__item .main__iTop .heart {
+.wrapper
+  .main
+  .main__body
+  .main__row-4
+  .main__box-2
+  .main__itemRow
+  .main__item
+  .main__iTop
+  .heart {
   cursor: pointer;
   position: absolute;
   right: 10px;
 }
-.wrapper .main .main__body .main__row-4 .main__box-2 .main__itemRow .main__item .main__iTop .star-box {
+.wrapper
+  .main
+  .main__body
+  .main__row-4
+  .main__box-2
+  .main__itemRow
+  .main__item
+  .main__iTop
+  .star-box {
   width: 53px;
   height: 32px;
   left: -10px;
@@ -983,7 +1463,14 @@ button {
   cursor: pointer;
   position: absolute;
 }
-.wrapper .main .main__body .main__row-4 .main__box-2 .main__itemRow .main__item .main__iCenter {
+.wrapper
+  .main
+  .main__body
+  .main__row-4
+  .main__box-2
+  .main__itemRow
+  .main__item
+  .main__iCenter {
   position: relative;
   display: flex;
   flex-direction: row;
@@ -992,19 +1479,46 @@ button {
   width: 100%;
   padding: 20px 0;
 }
-.wrapper .main .main__body .main__row-4 .main__box-2 .main__itemRow .main__item .main__iCenter .main__iInfo {
+.wrapper
+  .main
+  .main__body
+  .main__row-4
+  .main__box-2
+  .main__itemRow
+  .main__item
+  .main__iCenter
+  .main__iInfo {
   position: absolute;
   left: 10px;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.wrapper .main .main__body .main__row-4 .main__box-2 .main__itemRow .main__item .main__iCenter .main__iInfo .main__iL {
+.wrapper
+  .main
+  .main__body
+  .main__row-4
+  .main__box-2
+  .main__itemRow
+  .main__item
+  .main__iCenter
+  .main__iInfo
+  .main__iL {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.wrapper .main .main__body .main__row-4 .main__box-2 .main__itemRow .main__item .main__iCenter .main__iInfo .main__iL span {
+.wrapper
+  .main
+  .main__body
+  .main__row-4
+  .main__box-2
+  .main__itemRow
+  .main__item
+  .main__iCenter
+  .main__iInfo
+  .main__iL
+  span {
   font-style: normal;
   font-weight: 800;
   font-size: 20px;
@@ -1012,7 +1526,17 @@ button {
   /* or 25px */
   color: #673ab7;
 }
-.wrapper .main .main__body .main__row-4 .main__box-2 .main__itemRow .main__item .main__iCenter .main__iInfo .main__iL p {
+.wrapper
+  .main
+  .main__body
+  .main__row-4
+  .main__box-2
+  .main__itemRow
+  .main__item
+  .main__iCenter
+  .main__iInfo
+  .main__iL
+  p {
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
@@ -1020,13 +1544,28 @@ button {
   /* or 15px */
   color: #151621;
 }
-.wrapper .main .main__body .main__row-4 .main__box-2 .main__itemRow .main__item .main__iDownCenter {
+.wrapper
+  .main
+  .main__body
+  .main__row-4
+  .main__box-2
+  .main__itemRow
+  .main__item
+  .main__iDownCenter {
   display: flex;
   flex-direction: column;
   width: 100%;
   padding: 10px 0;
 }
-.wrapper .main .main__body .main__row-4 .main__box-2 .main__itemRow .main__item .main__iDownCenter span {
+.wrapper
+  .main
+  .main__body
+  .main__row-4
+  .main__box-2
+  .main__itemRow
+  .main__item
+  .main__iDownCenter
+  span {
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -1034,13 +1573,28 @@ button {
   /* or 23px */
   color: #151621;
 }
-.wrapper .main .main__body .main__row-4 .main__box-2 .main__itemRow .main__item .main__iBottom {
+.wrapper
+  .main
+  .main__body
+  .main__row-4
+  .main__box-2
+  .main__itemRow
+  .main__item
+  .main__iBottom {
   display: flex;
   flex-direction: column;
   align-items: center;
   width: 100%;
 }
-.wrapper .main .main__body .main__row-4 .main__box-2 .main__itemRow .main__item .main__iBottom .main__top {
+.wrapper
+  .main
+  .main__body
+  .main__row-4
+  .main__box-2
+  .main__itemRow
+  .main__item
+  .main__iBottom
+  .main__top {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -1048,7 +1602,16 @@ button {
   width: 100%;
   padding: 10px 0;
 }
-.wrapper .main .main__body .main__row-4 .main__box-2 .main__itemRow .main__item .main__iBottom .main__top p {
+.wrapper
+  .main
+  .main__body
+  .main__row-4
+  .main__box-2
+  .main__itemRow
+  .main__item
+  .main__iBottom
+  .main__top
+  p {
   margin: none;
   display: flex;
   align-items: center;
@@ -1059,7 +1622,16 @@ button {
   /* identical to box height, or 15px */
   color: #151621;
 }
-.wrapper .main .main__body .main__row-4 .main__box-2 .main__itemRow .main__item .main__iBottom .main__top span {
+.wrapper
+  .main
+  .main__body
+  .main__row-4
+  .main__box-2
+  .main__itemRow
+  .main__item
+  .main__iBottom
+  .main__top
+  span {
   font-style: normal;
   font-weight: 800;
   font-size: 25px;
@@ -1067,14 +1639,31 @@ button {
   /* or 31px */
   color: #151621;
 }
-.wrapper .main .main__body .main__row-4 .main__box-2 .main__itemRow .main__item .main__iBottom .main__bottom {
+.wrapper
+  .main
+  .main__body
+  .main__row-4
+  .main__box-2
+  .main__itemRow
+  .main__item
+  .main__iBottom
+  .main__bottom {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
   width: 100%;
 }
-.wrapper .main .main__body .main__row-4 .main__box-2 .main__itemRow .main__item .main__iBottom .main__bottom .buy {
+.wrapper
+  .main
+  .main__body
+  .main__row-4
+  .main__box-2
+  .main__itemRow
+  .main__item
+  .main__iBottom
+  .main__bottom
+  .buy {
   width: 187px;
   height: 50px;
   font-style: normal;
@@ -1088,7 +1677,16 @@ button {
   border-radius: 5px;
   border: none;
 }
-.wrapper .main .main__body .main__row-4 .main__box-2 .main__itemRow .main__item .main__iBottom .main__bottom .cart {
+.wrapper
+  .main
+  .main__body
+  .main__row-4
+  .main__box-2
+  .main__itemRow
+  .main__item
+  .main__iBottom
+  .main__bottom
+  .bascet {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1099,7 +1697,13 @@ button {
   border: 1px solid #e51c23;
   border-radius: 5px;
 }
-.wrapper .main .main__body .main__row-4 .main__box-2 .main__itemRow .main-item-top {
+.wrapper
+  .main
+  .main__body
+  .main__row-4
+  .main__box-2
+  .main__itemRow
+  .main-item-top {
   margin: 50px 0 -4px 0;
 }
 .wrapper .main .main__body .main__row-5 {
@@ -1116,10 +1720,21 @@ button {
   width: 100%;
   position: relative;
 }
-.wrapper .main .main__body .main__row-5 .main__wrap .main__text {
+.wrapper
+  .main
+  .main__body
+  .main__row-5
+  .main__wrap
+  .main__text {
   z-index: 300;
 }
-.wrapper .main .main__body .main__row-5 .main__wrap .main__text h1 {
+.wrapper
+  .main
+  .main__body
+  .main__row-5
+  .main__wrap
+  .main__text
+  h1 {
   margin: 10px 0;
   font-style: bold;
   font-weight: 800;
@@ -1129,7 +1744,13 @@ button {
   text-transform: uppercase;
   color: #ffffff;
 }
-.wrapper .main .main__body .main__row-5 .main__wrap .main__text h2 {
+.wrapper
+  .main
+  .main__body
+  .main__row-5
+  .main__wrap
+  .main__text
+  h2 {
   margin: 0;
   font-style: normal;
   font-weight: 600;
@@ -1139,13 +1760,26 @@ button {
   text-transform: uppercase;
   color: #ffffff;
 }
-.wrapper .main .main__body .main__row-5 .main__wrap .main__text .main__br {
+.wrapper
+  .main
+  .main__body
+  .main__row-5
+  .main__wrap
+  .main__text
+  .main__br {
   margin: 20px 0;
   display: flex;
   flex-direction: row;
   align-items: center;
 }
-.wrapper .main .main__body .main__row-5 .main__wrap .main__text .main__br span {
+.wrapper
+  .main
+  .main__body
+  .main__row-5
+  .main__wrap
+  .main__text
+  .main__br
+  span {
   font-style: normal;
   font-weight: 400;
   font-size: 30px;
@@ -1153,7 +1787,14 @@ button {
   /* or 31px */
   color: #ffffff;
 }
-.wrapper .main .main__body .main__row-5 .main__wrap .main__text .main__br button {
+.wrapper
+  .main
+  .main__body
+  .main__row-5
+  .main__wrap
+  .main__text
+  .main__br
+  button {
   margin-left: 30px;
   width: 194px;
   height: 50px;
@@ -1168,7 +1809,12 @@ button {
   border: 1px solid #ecedef;
   border-radius: 5px;
 }
-.wrapper .main .main__body .main__row-5 .main__wrap .main__bg {
+.wrapper
+  .main
+  .main__body
+  .main__row-5
+  .main__wrap
+  .main__bg {
   z-index: 200;
   position: absolute;
   display: flex;
@@ -1191,7 +1837,13 @@ button {
   align-items: center;
   justify-content: space-between;
 }
-.wrapper .main .main__body .main__row-6 .main__box-1 .main__title h1 {
+.wrapper
+  .main
+  .main__body
+  .main__row-6
+  .main__box-1
+  .main__title
+  h1 {
   font-style: normal;
   font-weight: 700;
   font-size: 80px;
@@ -1200,7 +1852,13 @@ button {
   color: #151621;
   margin-bottom: 10px;
 }
-.wrapper .main .main__body .main__row-6 .main__box-1 .main__title h2 {
+.wrapper
+  .main
+  .main__body
+  .main__row-6
+  .main__box-1
+  .main__title
+  h2 {
   margin-bottom: 10px;
   font-style: normal;
   font-weight: 400;
@@ -1208,10 +1866,23 @@ button {
   line-height: 29px;
   color: #151621;
 }
-.wrapper .main .main__body .main__row-6 .main__box-1 .main__title h2 b {
+.wrapper
+  .main
+  .main__body
+  .main__row-6
+  .main__box-1
+  .main__title
+  h2
+  b {
   color: red;
 }
-.wrapper .main .main__body .main__row-6 .main__box-1 .main__button button {
+.wrapper
+  .main
+  .main__body
+  .main__row-6
+  .main__box-1
+  .main__button
+  button {
   width: 325px;
   height: 50px;
   border: 1px solid #e51c23;
@@ -1231,14 +1902,25 @@ button {
   flex-direction: column;
   align-items: center;
 }
-.wrapper .main .main__body .main__row-6 .main__box-2 .main__itemRow {
+.wrapper
+  .main
+  .main__body
+  .main__row-6
+  .main__box-2
+  .main__itemRow {
   position: relative;
   display: flex;
   width: 100%;
   flex-direction: row;
   align-items: center;
 }
-.wrapper .main .main__body .main__row-6 .main__box-2 .main__itemRow .main__item {
+.wrapper
+  .main
+  .main__body
+  .main__row-6
+  .main__box-2
+  .main__itemRow
+  .main__item {
   flex-direction: column;
   display: flex;
   align-items: center;
@@ -1248,7 +1930,14 @@ button {
   border-radius: 5px;
   padding: 10px 10px;
 }
-.wrapper .main .main__body .main__row-6 .main__box-2 .main__itemRow .main__item .main__iTop {
+.wrapper
+  .main
+  .main__body
+  .main__row-6
+  .main__box-2
+  .main__itemRow
+  .main__item
+  .main__iTop {
   position: relative;
   justify-content: center;
   width: 100%;
@@ -1256,13 +1945,30 @@ button {
   flex-direction: row;
   align-items: center;
 }
-.wrapper .main .main__body .main__row-6 .main__box-2 .main__itemRow .main__item .main__iTop .main__categori {
+.wrapper
+  .main
+  .main__body
+  .main__row-6
+  .main__box-2
+  .main__itemRow
+  .main__item
+  .main__iTop
+  .main__categori {
   width: 157px;
   height: 23px;
   background: #259b24;
   border-radius: 5px;
 }
-.wrapper .main .main__body .main__row-6 .main__box-2 .main__itemRow .main__item .main__iTop .main__categori span {
+.wrapper
+  .main
+  .main__body
+  .main__row-6
+  .main__box-2
+  .main__itemRow
+  .main__item
+  .main__iTop
+  .main__categori
+  span {
   font-style: normal;
   font-weight: 800;
   font-size: 14px;
@@ -1271,12 +1977,28 @@ button {
   text-align: center;
   color: #ffffff;
 }
-.wrapper .main .main__body .main__row-6 .main__box-2 .main__itemRow .main__item .main__iTop .heart {
+.wrapper
+  .main
+  .main__body
+  .main__row-6
+  .main__box-2
+  .main__itemRow
+  .main__item
+  .main__iTop
+  .heart {
   cursor: pointer;
   position: absolute;
   right: 10px;
 }
-.wrapper .main .main__body .main__row-6 .main__box-2 .main__itemRow .main__item .main__iTop .star-box {
+.wrapper
+  .main
+  .main__body
+  .main__row-6
+  .main__box-2
+  .main__itemRow
+  .main__item
+  .main__iTop
+  .star-box {
   width: 53px;
   height: 32px;
   left: -10px;
@@ -1289,7 +2011,14 @@ button {
   cursor: pointer;
   position: absolute;
 }
-.wrapper .main .main__body .main__row-6 .main__box-2 .main__itemRow .main__item .main__iCenter {
+.wrapper
+  .main
+  .main__body
+  .main__row-6
+  .main__box-2
+  .main__itemRow
+  .main__item
+  .main__iCenter {
   position: relative;
   display: flex;
   flex-direction: row;
@@ -1298,19 +2027,46 @@ button {
   width: 100%;
   padding: 20px 0;
 }
-.wrapper .main .main__body .main__row-6 .main__box-2 .main__itemRow .main__item .main__iCenter .main__iInfo {
+.wrapper
+  .main
+  .main__body
+  .main__row-6
+  .main__box-2
+  .main__itemRow
+  .main__item
+  .main__iCenter
+  .main__iInfo {
   position: absolute;
   left: 10px;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.wrapper .main .main__body .main__row-6 .main__box-2 .main__itemRow .main__item .main__iCenter .main__iInfo .main__iL {
+.wrapper
+  .main
+  .main__body
+  .main__row-6
+  .main__box-2
+  .main__itemRow
+  .main__item
+  .main__iCenter
+  .main__iInfo
+  .main__iL {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.wrapper .main .main__body .main__row-6 .main__box-2 .main__itemRow .main__item .main__iCenter .main__iInfo .main__iL span {
+.wrapper
+  .main
+  .main__body
+  .main__row-6
+  .main__box-2
+  .main__itemRow
+  .main__item
+  .main__iCenter
+  .main__iInfo
+  .main__iL
+  span {
   font-style: normal;
   font-weight: 800;
   font-size: 20px;
@@ -1318,7 +2074,17 @@ button {
   /* or 25px */
   color: #673ab7;
 }
-.wrapper .main .main__body .main__row-6 .main__box-2 .main__itemRow .main__item .main__iCenter .main__iInfo .main__iL p {
+.wrapper
+  .main
+  .main__body
+  .main__row-6
+  .main__box-2
+  .main__itemRow
+  .main__item
+  .main__iCenter
+  .main__iInfo
+  .main__iL
+  p {
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
@@ -1326,13 +2092,28 @@ button {
   /* or 15px */
   color: #151621;
 }
-.wrapper .main .main__body .main__row-6 .main__box-2 .main__itemRow .main__item .main__iDownCenter {
+.wrapper
+  .main
+  .main__body
+  .main__row-6
+  .main__box-2
+  .main__itemRow
+  .main__item
+  .main__iDownCenter {
   display: flex;
   flex-direction: column;
   width: 100%;
   padding: 10px 0;
 }
-.wrapper .main .main__body .main__row-6 .main__box-2 .main__itemRow .main__item .main__iDownCenter span {
+.wrapper
+  .main
+  .main__body
+  .main__row-6
+  .main__box-2
+  .main__itemRow
+  .main__item
+  .main__iDownCenter
+  span {
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -1340,13 +2121,28 @@ button {
   /* or 23px */
   color: #151621;
 }
-.wrapper .main .main__body .main__row-6 .main__box-2 .main__itemRow .main__item .main__iBottom {
+.wrapper
+  .main
+  .main__body
+  .main__row-6
+  .main__box-2
+  .main__itemRow
+  .main__item
+  .main__iBottom {
   display: flex;
   flex-direction: column;
   align-items: center;
   width: 100%;
 }
-.wrapper .main .main__body .main__row-6 .main__box-2 .main__itemRow .main__item .main__iBottom .main__top {
+.wrapper
+  .main
+  .main__body
+  .main__row-6
+  .main__box-2
+  .main__itemRow
+  .main__item
+  .main__iBottom
+  .main__top {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -1354,7 +2150,16 @@ button {
   width: 100%;
   padding: 10px 0;
 }
-.wrapper .main .main__body .main__row-6 .main__box-2 .main__itemRow .main__item .main__iBottom .main__top p {
+.wrapper
+  .main
+  .main__body
+  .main__row-6
+  .main__box-2
+  .main__itemRow
+  .main__item
+  .main__iBottom
+  .main__top
+  p {
   margin: none;
   display: flex;
   align-items: center;
@@ -1365,7 +2170,16 @@ button {
   /* identical to box height, or 15px */
   color: #151621;
 }
-.wrapper .main .main__body .main__row-6 .main__box-2 .main__itemRow .main__item .main__iBottom .main__top span {
+.wrapper
+  .main
+  .main__body
+  .main__row-6
+  .main__box-2
+  .main__itemRow
+  .main__item
+  .main__iBottom
+  .main__top
+  span {
   font-style: normal;
   font-weight: 800;
   font-size: 25px;
@@ -1373,14 +2187,31 @@ button {
   /* or 31px */
   color: #151621;
 }
-.wrapper .main .main__body .main__row-6 .main__box-2 .main__itemRow .main__item .main__iBottom .main__bottom {
+.wrapper
+  .main
+  .main__body
+  .main__row-6
+  .main__box-2
+  .main__itemRow
+  .main__item
+  .main__iBottom
+  .main__bottom {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
   width: 100%;
 }
-.wrapper .main .main__body .main__row-6 .main__box-2 .main__itemRow .main__item .main__iBottom .main__bottom .buy {
+.wrapper
+  .main
+  .main__body
+  .main__row-6
+  .main__box-2
+  .main__itemRow
+  .main__item
+  .main__iBottom
+  .main__bottom
+  .buy {
   width: 187px;
   height: 50px;
   font-style: normal;
@@ -1394,7 +2225,16 @@ button {
   border-radius: 5px;
   border: none;
 }
-.wrapper .main .main__body .main__row-6 .main__box-2 .main__itemRow .main__item .main__iBottom .main__bottom .cart {
+.wrapper
+  .main
+  .main__body
+  .main__row-6
+  .main__box-2
+  .main__itemRow
+  .main__item
+  .main__iBottom
+  .main__bottom
+  .bascet {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1405,10 +2245,22 @@ button {
   border: 1px solid #e51c23;
   border-radius: 5px;
 }
-.wrapper .main .main__body .main__row-6 .main__box-2 .main__itemRow .main-item-top {
+.wrapper
+  .main
+  .main__body
+  .main__row-6
+  .main__box-2
+  .main__itemRow
+  .main-item-top {
   margin: 50px 0 -40px 0;
 }
-.wrapper .main .main__body .main__row-6 .main__box-2 .main__itemRow .main-item-top-top {
+.wrapper
+  .main
+  .main__body
+  .main__row-6
+  .main__box-2
+  .main__itemRow
+  .main-item-top-top {
   margin: 100px 30px -40px 30px;
 }
 .wrapper .footer {
@@ -1494,7 +2346,12 @@ button {
   flex-direction: row;
   justify-content: space-between;
 }
-.wrapper .footer .footer__box-2 .footer__body .footer__container h1 {
+.wrapper
+  .footer
+  .footer__box-2
+  .footer__body
+  .footer__container
+  h1 {
   font-style: normal;
   font-weight: 800;
   font-size: 25px;
@@ -1504,7 +2361,12 @@ button {
   color: #e51c23;
   margin: 10px 0 10px 0;
 }
-.wrapper .footer .footer__box-2 .footer__body .footer__container h2 {
+.wrapper
+  .footer
+  .footer__box-2
+  .footer__body
+  .footer__container
+  h2 {
   margin: 10px 0 10px 0;
   font-style: normal;
   font-weight: 800;
@@ -1513,7 +2375,12 @@ button {
   /* or 17px */
   color: #ffffff;
 }
-.wrapper .footer .footer__box-2 .footer__body .footer__container span {
+.wrapper
+  .footer
+  .footer__box-2
+  .footer__body
+  .footer__container
+  span {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -1522,24 +2389,46 @@ button {
   color: #b8b9be;
   margin: 10px 0;
 }
-.wrapper .footer .footer__box-2 .footer__body .footer__container .footer__images {
+.wrapper
+  .footer
+  .footer__box-2
+  .footer__body
+  .footer__container
+  .footer__images {
   margin: 15px 0;
   display: flex;
   flex-direction: row;
   width: 100%;
   align-items: center;
 }
-.wrapper .footer .footer__box-2 .footer__body .footer__container .footer__images img {
+.wrapper
+  .footer
+  .footer__box-2
+  .footer__body
+  .footer__container
+  .footer__images
+  img {
   margin: 10px 5px;
 }
-.wrapper .footer .footer__box-2 .footer__body .footer__container ul {
+.wrapper
+  .footer
+  .footer__box-2
+  .footer__body
+  .footer__container
+  ul {
   list-style-type: none;
   display: flex;
   flex-direction: column;
   padding: 0;
   margin: 0;
 }
-.wrapper .footer .footer__box-2 .footer__body .footer__container ul li {
+.wrapper
+  .footer
+  .footer__box-2
+  .footer__body
+  .footer__container
+  ul
+  li {
   cursor: pointer;
   font-style: normal;
   font-weight: 400;
@@ -1576,7 +2465,10 @@ button {
   width: 100%;
   height: 100%;
 }
-.interview .interview__body .interview__active .interview__button {
+.interview
+  .interview__body
+  .interview__active
+  .interview__button {
   cursor: pointer;
   height: 100%;
   z-index: 9999;
@@ -1588,32 +2480,56 @@ button {
   width: 8%;
   border-radius: 5px 0 0 5px;
 }
-.interview .interview__body .interview__active .interview__button span {
+.interview
+  .interview__body
+  .interview__active
+  .interview__button
+  span {
   transform: rotate(270deg);
   color: white;
   font-weight: 700;
   font-size: 17px;
 }
-.interview .interview__body .interview__active .interview__box {
+.interview
+  .interview__body
+  .interview__active
+  .interview__box {
   height: 100%;
   padding: 20px 20px;
   width: 90%;
   background-color: white;
 }
-.interview .interview__body .interview__active .interview__box .form-check {
+.interview
+  .interview__body
+  .interview__active
+  .interview__box
+  .form-check {
   margin: 15px 0;
 }
-.interview .interview__body .interview__active .interview__box .form-control-sm {
+.interview
+  .interview__body
+  .interview__active
+  .interview__box
+  .form-control-sm {
   margin-bottom: 15px;
 }
-.interview .interview__body .interview__active .interview__box .interview__control {
+.interview
+  .interview__body
+  .interview__active
+  .interview__box
+  .interview__control {
   align-items: center;
   margin-top: 15%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
-.interview .interview__body .interview__active .interview__box .interview__control button {
+.interview
+  .interview__body
+  .interview__active
+  .interview__box
+  .interview__control
+  button {
   background-color: #82dc85;
   color: white;
   font-weight: 700;
@@ -1632,7 +2548,10 @@ button {
   width: 100%;
   height: 100%;
 }
-.interview .interview__body .interview__notActive .interview__button {
+.interview
+  .interview__body
+  .interview__notActive
+  .interview__button {
   cursor: pointer;
   height: 100%;
   z-index: 9999;
@@ -1644,7 +2563,11 @@ button {
   width: 8%;
   border-radius: 5px 0 0 5px;
 }
-.interview .interview__body .interview__notActive .interview__button span {
+.interview
+  .interview__body
+  .interview__notActive
+  .interview__button
+  span {
   transform: rotate(270deg);
   color: white;
   font-weight: 700;
@@ -1664,16 +2587,35 @@ button {
 }
 /* Для мобильных устройств */
 @media screen and (max-width: 767px) {
-  .wrapper .header .header__center .header__body .header__pannel {
+  .wrapper
+    .header
+    .header__center
+    .header__body
+    .header__pannel {
     flex-direction: column;
   }
-  .wrapper .header .header__center .header__body .header__pannel .select-One,
-  .wrapper .header .header__center .header__body .header__pannel .select-To {
+  .wrapper
+    .header
+    .header__center
+    .header__body
+    .header__pannel
+    .select-One,
+  .wrapper
+    .header
+    .header__center
+    .header__body
+    .header__pannel
+    .select-To {
     width: 100%;
     margin: 0;
     margin-bottom: 10px;
   }
-  .wrapper .header .header__center .header__body .header__navigation ul {
+  .wrapper
+    .header
+    .header__center
+    .header__body
+    .header__navigation
+    ul {
     flex-direction: column;
   }
   .wrapper .header .header__bottom .header__body,
@@ -1687,18 +2629,30 @@ button {
     margin-bottom: 10px;
     font-size: 20px;
   }
-  .wrapper .header .header__bottom .header__body .select-One {
+  .wrapper
+    .header
+    .header__bottom
+    .header__body
+    .select-One {
     margin-right: 0;
     margin-bottom: 10px;
   }
-  .wrapper .header .header__bottom .header__body .header__input {
+  .wrapper
+    .header
+    .header__bottom
+    .header__body
+    .header__input {
     margin-right: 0;
     margin-bottom: 10px;
   }
 }
 /* Для планшетов */
 @media screen and (min-width: 768px) and (max-width: 1023px) {
-  .wrapper .header .header__center .header__body .header__pannel {
+  .wrapper
+    .header
+    .header__center
+    .header__body
+    .header__pannel {
     flex-direction: row;
   }
   .wrapper .header .header__bottom .header__body {
@@ -1724,7 +2678,7 @@ button {
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 
 .swiper-button-prev:after {
@@ -1740,4 +2694,4 @@ button {
 .swiper-pagination-bullet-active {
   opacity: var(--swiper-pagination-bullet-opacity, 1);
   background: red !important;
-}/*# sourceMappingURL=index.css.map */
+} /*# sourceMappingURL=index.css.map */

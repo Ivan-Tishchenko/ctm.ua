@@ -6,6 +6,7 @@ import {
 import Main from "./components/Main/Main";
 import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
+import Profile from "./components/Profile/Profile";
 
 export function App() {
   return (
@@ -50,7 +51,6 @@ export function App() {
             path="/contacts"
             element={<div>/contacts</div>}
           />
-
           <Route
             path="/category"
             element={<div>categories</div>}
@@ -60,6 +60,15 @@ export function App() {
             element={<div>smartphones</div>}
           />
           <Route path="/sale" element={<div>sale</div>} />
+          <Route
+            path="/bascet"
+            element={<div>bascet</div>}
+          />
+          <Route
+            path="/favorites"
+            element={<div>favorites</div>}
+          />
+          <Route path="/profile" element={<Profile />} />
         </Routes>
         <Footer />
       </div>
