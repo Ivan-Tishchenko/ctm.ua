@@ -15,8 +15,9 @@ import {
 export default function Footer() {
   const timeWork = useSelector(selectTimeWork);
   const phones = useSelector(selectPhones);
-  const { facebook, instagram, telegram, date, email, siteName } =
-    useSelector(selectSocialMedia);
+  const { telegram, date, email, siteName } = useSelector(
+    selectSocialMedia
+  ); //facebook, instagram, нужно будет вернуть
 
   return (
     <footer className="footer">

@@ -1,6 +1,6 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination } from "swiper";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 
 import "swiper/swiper-bundle.min.css";
 

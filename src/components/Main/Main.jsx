@@ -6,7 +6,7 @@ import phoneItemImage from "../../assets/image/phoneItem.png";
 import slideBgImage from "../../assets/image/Main slideBg.png";
 
 import CardProduct from "../CardProduct/CardProduct";
-import AdditionalCatalogs from "./AdditionalCatalogs";
+// import AdditionalCatalogs from "./AdditionalCatalogs";
 import ProductСategory from "./ProductСategory";
 import SwiperCatalog from "./SwiperCatalog";
 import { selectCatalog } from "../../selectors";

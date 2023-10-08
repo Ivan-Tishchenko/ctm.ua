@@ -1,14 +1,16 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
+import React from "react";
+import ReactDOM from "react-dom/client";
 import App from "./App";
-import store from "./redux/redux-state"
-import { Provider } from 'react-redux';
-import './assets/css/index.css';
+import store from "./redux/redux-state";
+import { Provider } from "react-redux";
+import "./assets/css/index.css";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(
+  document.getElementById("root")
+);
 
 root.render(
-  <React.StrictMode>
+  <React.StrictMode basename="/ctm.ua">
     <Provider store={store}>
       <App />
     </Provider>
