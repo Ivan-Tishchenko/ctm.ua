@@ -14,14 +14,48 @@ export function App() {
         <Header />
         <Routes>
           <Route path="/" element={<Main />} />
-          <Route path="/new" element={<div>new</div>} />
-          <Route path="/best" element={<div>best</div>} />
-          <Route path="/sale" element={<div>sale</div>} />
           <Route
-            path="/product"
+            path="/product/:productID"
             element={<div>product</div>}
           />
-          <Route path="/day" element={<div>day</div>} />
+          <Route
+            path="/corporative-clients"
+            element={<div>/corporative-clients</div>}
+          />
+          <Route
+            path="/for-dealers"
+            element={<div>/for-dealers</div>}
+          />
+          <Route
+            path="/about-as"
+            element={<div>/about-as</div>}
+          />
+          <Route
+            path="/delivery"
+            element={<div>/delivery</div>}
+          />
+          <Route
+            path="/guarantee"
+            element={<div>/guarantee</div>}
+          />
+          <Route
+            path="/return-exchange"
+            element={<div>/return-exchange</div>}
+          />
+          <Route path="/sale" element={<div>/sale</div>} />
+          <Route
+            path="/contacts"
+            element={<div>/contacts</div>}
+          />
+
+          <Route
+            path="/category"
+            element={<div>categories</div>}
+          />
+          <Route
+            path="/category/:categoryName"
+            element={<div>smartphones</div>}
+          />
         </Routes>
         <Footer />
       </div>

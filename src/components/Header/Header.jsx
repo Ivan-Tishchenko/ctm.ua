@@ -42,7 +42,11 @@ export default function Header() {
               <option>Днепр</option>
               <option>Киев</option>
             </select>
-            <img className="img-map-bg" src={mapImage} alt="" />
+            <img
+              className="img-map-bg"
+              src={mapImage}
+              alt=""
+            />
 
             <select
               className="form-select select-To"
@@ -54,33 +58,45 @@ export default function Header() {
                 <option key={id}>{time}</option>
               ))}
             </select>
-            <img className="img-timers-bg" src={timeWorkingImage} alt="" />
+            <img
+              className="img-timers-bg"
+              src={timeWorkingImage}
+              alt=""
+            />
           </div>
           <div className="header__navigation">
             <ul>
               <li>
-                <Link to={""}>Корпоративным клиентам</Link>
+                <Link to={"/corporative-clients"}>
+                  Корпоративным клиентам
+                </Link>
               </li>
               <li>
-                <Link to={""}>Диллерам(b2b)</Link>
+                <Link to={"/for-dealers"}>
+                  Диллерам(b2b)
+                </Link>
               </li>
               <li>
-                <Link to={""}>Про нас</Link>
+                <Link to={"/about-as"}>Про нас</Link>
               </li>
               <li>
-                <Link to={""}>Способы доставки</Link>
+                <Link to={"/delivery"}>
+                  Способы доставки
+                </Link>
               </li>
               <li>
-                <Link to={""}>Гарантия</Link>
+                <Link to={"/guarantee"}>Гарантия</Link>
               </li>
               <li>
-                <Link to={""}>Возврат и обмен</Link>
+                <Link to={"/return-exchange"}>
+                  Возврат и обмен
+                </Link>
               </li>
               <li>
-                <Link to={""}>Распродажа</Link>
+                <Link to={"/sale"}>Распродажа</Link>
               </li>
               <li>
-                <Link to={""}>Контакты</Link>
+                <Link to={"/contacts"}>Контакты</Link>
               </li>
             </ul>
           </div>
@@ -102,15 +118,23 @@ export default function Header() {
                   <option key={id}>{phone}</option>
                 ))}
               </select>
-              <img className="img-tel-bg" src={telImage} alt="" />
+              <img
+                className="img-tel-bg"
+                src={telImage}
+                alt=""
+              />
             </div>
             <div className="header__input">
               <div className="header__ctegore">
                 <span>
-                  Все категории <img src={downArrowImage} alt="" />
+                  Все категории{" "}
+                  <img src={downArrowImage} alt="" />
                 </span>
                 <hr />
-                <input className="search-input" type="text" />
+                <input
+                  className="search-input"
+                  type="text"
+                />
                 <div className="header__searchBtn">
                   <img src={searchImage} alt="" />
                 </div>
@@ -118,19 +142,28 @@ export default function Header() {
             </div>
             <div className="header__profile">
               <Link
-                style={{ display: "flex", alignItems: "center" }}
+                style={{
+                  display: "flex",
+                  alignItems: "center",
+                }}
                 to={"/profile/"}
               >
                 <img src={userImage} alt="user" />
               </Link>
               <Link
-                style={{ display: "flex", alignItems: "center" }}
+                style={{
+                  display: "flex",
+                  alignItems: "center",
+                }}
                 to={"/favorite/"}
               >
                 <img src={heartImage} alt="heart" />
               </Link>
               <Link
-                style={{ display: "flex", alignItems: "center" }}
+                style={{
+                  display: "flex",
+                  alignItems: "center",
+                }}
                 to={"/cart/"}
               >
                 <img src={cartImage} alt="cart" />
