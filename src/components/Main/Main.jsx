@@ -16,12 +16,20 @@ export default function Main() {
   const [showMore, setShowMore] = useState(false);
   const catalog = useSelector(selectCatalog);
 
-  const uniqueCategories = catalog.reduce((unique, category) => {
-    if (!unique.some((item) => item.category_name === category.category_name)) {
-      unique.push(category);
-    }
-    return unique;
-  }, []);
+  const uniqueCategories = catalog.reduce(
+    (unique, category) => {
+      if (
+        !unique.some(
+          (item) =>
+            item.category_name === category.category_name
+        )
+      ) {
+        unique.push(category);
+      }
+      return unique;
+    },
+    []
+  );
 
   const toggleShowMore = () => {
     setShowMore(!showMore);
@@ -38,14 +46,21 @@ export default function Main() {
             </div>
             {uniqueCategories.map((category, index) => (
               <ProductСategory
-                link={`/category/${category?.category_name}`}
+                link={`/category/${category?.category_name
+                  .split(" ")
+                  .join("-")}`}
                 title={category["category_name"]}
                 image={""}
               />
             ))}
             {/* {showMore && <AdditionalCatalogs />} */}
-            <div className="main__showAll" onClick={toggleShowMore}>
-              <span>{showMore ? "Скрыть" : "Показать ещё"}</span>
+            <div
+              className="main__showAll"
+              onClick={toggleShowMore}
+            >
+              <span>
+                {showMore ? "Скрыть" : "Показать ещё"}
+              </span>
             </div>
           </div>
           <SwiperCatalog />
@@ -54,8 +69,8 @@ export default function Main() {
           <div className="main__box-1">
             <h1>Новинки</h1>
             <h2>
-              Самые свежие и <b>сочные новинки</b>, которые не оставят ни одного
-              сомнения в их покупке !
+              Самые свежие и <b>сочные новинки</b>, которые
+              не оставят ни одного сомнения в их покупке !
             </h2>
             <button>В каталог</button>
           </div>
@@ -91,8 +106,8 @@ export default function Main() {
             <div className="main__title">
               <h1>Бестселлеры</h1>
               <h2>
-                Наши любимчики, за качество мы <br /> даем <b>10 из 10</b>,
-                рекомендуем !
+                Наши любимчики, за качество мы <br /> даем{" "}
+                <b>10 из 10</b>, рекомендуем !
               </h2>
             </div>
             <div className="main__button">
@@ -190,7 +205,8 @@ export default function Main() {
           <div className="main__box-1">
             <h1>Раcпродажа</h1>
             <h2>
-              Хватай пока горячее, а еще и <br /> <b>по маленькой цене</b> !!!
+              Хватай пока горячее, а еще и <br />{" "}
+              <b>по маленькой цене</b> !!!
             </h2>
             <button>В каталог</button>
           </div>
@@ -217,7 +233,8 @@ export default function Main() {
             <div className="main__title">
               <h1>Топ дня</h1>
               <h2>
-                Что больше всего <br /> <b>покупают сегодня</b> !
+                Что больше всего <br />{" "}
+                <b>покупают сегодня</b> !
               </h2>
             </div>
             <div className="main__button">

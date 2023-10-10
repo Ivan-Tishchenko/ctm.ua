@@ -7,6 +7,8 @@ import Main from "./components/Main/Main";
 import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
 import Profile from "./components/Profile/Profile";
+import Catigories from "./components/Catigories/Catigories";
+import Category from "./components/Category/Category";
 
 export function App() {
   return (
@@ -53,11 +55,11 @@ export function App() {
           />
           <Route
             path="/category"
-            element={<div>categories</div>}
+            element={<Catigories />}
           />
           <Route
             path="/category/:categoryName"
-            element={<div>smartphones</div>}
+            element={<Category />}
           />
           <Route path="/sale" element={<div>sale</div>} />
           <Route

@@ -1,6 +1,6 @@
 import React from 'react'
-const firstname = "slava";
-const lastname = "prilipko";
+const firstname = "name";
+const lastname = "lastname";
 const phone = "+38(000)00-000-00";
 const address =  "address"
 
@@ -15,7 +15,7 @@ const Profile = () => {
 
       <h2>адрес</h2>
       <p>{address}</p>
-      
+
     </section>
   )
 }
